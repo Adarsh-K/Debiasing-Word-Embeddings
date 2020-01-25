@@ -2,7 +2,9 @@
 Note: All the files are well documented and commented wherever I felt necessary
 # The need for De-biasing:
 Because word embeddings are very computationally expensive to train, most ML practitioners generally load a pre-trained set of embeddings.
-But since even the Pre-Trained Word Embeddings are traied on some Text and the Text is written by humans, it captures the bias present in the author(c'mon) they're humans too!
+
+But since even the Pre-Trained Word Embeddings are trained on some Text and the Text is written by humans, it captures the bias present in the author(c'mon) they're humans too!
+
 But the problem arrises when out model learns the bias present in the texts it's trained on. Suppose such model is used for reviewing the Application of a Candidate for a Job, we don't want that it has biases like Gender, Race, etc.
 In the Notebook I've tried to modify the Word Embeddings to reduce Gender Bias! Similarly we can do for other biases like Race,etc.
 
